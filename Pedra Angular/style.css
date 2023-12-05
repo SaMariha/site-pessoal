@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background:linear-gradient(68.15deg,#cac9c7 16.62%, rgb(247, 197, 150) 85.61%);
+}
+.cabecalho-imagem{
+    width: auto;
+    height: 610px;
+    flex:1;
+}
+.cabecalho-letras {
+    width: 300px; /* Ajuste conforme necessário */
+    height: 300px; /* Ajuste conforme necessário */
+    position: absolute;
+    top: -250px; /* Inicia acima do topo da tela */
+    left: 30%;
+    transform: translateX(-50%);
+    transition: top 1.5s ease; /* Adiciona transição para suavizar o movimento */
+}
+.menu {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(111, 131, 131, 0.219); /* Cor de fundo com transparência */
+    overflow: hidden;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 25px;
+    
+}
+.menu-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: right; /* Centraliza os itens horizontalmente */
+}
+.menu-li {
+    float:right;
+}
+.menu-li-a {
+    display: block;
+    color: rgb(99, 86, 74);
+    text-align: right;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+
+.menu-li-a:hover {
+    background-color: rgba(131, 116, 111, 0.404);
+}
+.conteudo{
+    position: absolute;
+    top: 23%;
+    left: 60%;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    background-color: rgba(111, 131, 131, 0.219);
+}
+.imagem-aproveite{
+    position: relative;
+    top: -60PX;
+    left: 17%;
+    width: 350px;
+    height: auto;
+}
+.apresentacao{
+    position: relative;
+    padding: 5px;
+    top: 0PX;
+    left: 10%;
+    width: 400px;
+    height: auto;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16.5px;
+    text-align: center;
+    line-height: 1.5;
+}
+
