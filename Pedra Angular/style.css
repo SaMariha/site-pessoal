@@ -59,30 +59,35 @@ body{
 }
 .conteudo{
     position: absolute;
-    top: 23%;
-    left: 60%;
-    width: 500px;
+    top: 21%;
+    left: 53%;
+    width: 600px;
     height: 500px;
     align-items: center;
-    background-color: rgba(111, 131, 131, 0.219);
+    background-color: rgba(111, 131, 131, 0);
 }
-.imagem-aproveite{
+.imagem-apresentacao{
     position: relative;
-    top: -60PX;
-    left: 17%;
-    width: 350px;
+    padding: 8px;
+    top: 0PX;
+    left: 15%;
+    width: 450px;
     height: auto;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16.5px;
+    text-align:justify;
+    line-height: 1.5;
 }
 .apresentacao{
     position: relative;
     padding: 5px;
     top: 0PX;
     left: 10%;
-    width: 400px;
+    width: 500px;
     height: auto;
     font-family: 'Philosopher', sans-serif;
     font-size: 16.5px;
-    text-align: center;
+    text-align:justify;
     line-height: 1.5;
 }
 
